@@ -7,5 +7,5 @@ import (
 
 func main() {
 	runtime.GOMAXPROCS(100)
-	fmt.Printf("Threads: %v\n", runtime.GOMAXPROCS(-1))
+	fmt.Printf("Threads 1: %v\n", runtime.GOMAXPROCS(-1))
 }
